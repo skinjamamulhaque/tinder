@@ -6,13 +6,20 @@
   <title>Tinder</title>
   <link href="./src/output.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+  <style>
+    #detailsdiv{
+      background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.767));
+    }
+  </style>
 </head>
 <body>
-  <section class="border m-auto h-full bg-slate-600 w-full">
-    <div class="maincard absolute z-[2] w-full h-full bg-orange-600"></div>
+  <section class="">
+    <div class="maincard absolute z-[2] w-screen h-screen bg-orange-600">
+      <img class="object-cover w-screen h-screen" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    </div>
     <div class="incomingcard absolute z-[1] w-full h-full bg-green-600"></div>
 
-    <div class="navbar absolute z-[3] flex justify-between w-full bg-slate-500 px-10">
+    <div class="navbar absolute z-[3] flex justify-between w-full  px-10 py-10">
       <div class="w-10 h-10 bg-green-600 rounded-full overflow-hidden">
         <img class="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fHww">
       </div>
@@ -21,28 +28,28 @@
 
     
 
-    <div class="w-full absolute bottom-0 z-[3]  bg-pink-600  flex flex-col gap-3 px-10 py-5">
-      <div class="flex items-baseline  border">
-        <div class="rounded-full text-xl font-bold w-7 h-7">
+    <div id="detailsdiv" class="w-full absolute bottom-0 z-[3] flex flex-col gap-3 px-10 py-5 bg-black">
+      <div class="flex items-baseline  ">
+        <div class="rounded-full text-xl font-bold w-7 h-7 text-white">
           <i class="ri-map-pin-2-fill"></i>
         </div>
-        <p class="text-md font-semibold">Kolkata, West Bengal</p>
+        <p class="text-md font-semibold text-white">Kolkata, West Bengal</p>
       </div>
-      <div class="flex items-center gap-2 border">
-        <h6 class="text-4xl font-bold">Sk Injamamul Haque</h6>
-        <h6 class="text-4xl font-bold text-white">26</h6>
+      <div class="flex items-center gap-2 ">
+        <h6 class="text-4xl font-bold text-white">Sk Injamamul Haque</h6>
+        <h6 class="text-4xl font-bold text-white text-opacity-65">26</h6>
 
       </div>
       
       <div class="flex gap-2 ">
-        <div class="border  px-3 py-1 rounded-lg font-semibold"><i class="ri-music-2-fill"></i> Music</div>
-        <div class="border  px-3 py-1 rounded-lg font-semibold"><i class="ri-paint-fill"></i> Painting</div>
-        <div class="border  px-3 py-1 rounded-lg font-semibold"><i class="ri-camera-fill"></i> Photography</div>
+        <div class="border px-3 py-1 rounded-lg font-semibold text-white"><i class="ri-music-2-fill"></i> Music</div>
+        <div class="border  px-3 py-1 rounded-lg font-semibold text-white"><i class="ri-paint-fill"></i> Painting</div>
+        <div class="border  px-3 py-1 rounded-lg font-semibold text-white"><i class="ri-camera-fill"></i> Photography</div>
       </div>
 
       <div class="pr-20">
-        <h5 class="text-lg font-semibold">Bio</h5>
-        <p class="tracking-tighter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolorum cupiditate vitae magnam dolorem blanditiis sapiente veritatis perspiciatis. Debitis aliquid voluptatem deserunt sit incidunt temporibus nulla quaerat reprehenderit consequatur repellendus.</p>
+        <h5 class="text-lg font-semibold text-white">Bio</h5>
+        <p class="tracking-tighter text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum dolorum cupiditate vitae magnam dolorem blanditiis sapiente veritatis perspiciatis. Debitis aliquid voluptatem deserunt sit incidunt temporibus nulla quaerat reprehenderit consequatur repellendus.</p>
      </div>
 
      <div class="flex gap-5 font-extrabold text-2xl mt-2 ">
